@@ -21,6 +21,7 @@
 		08159C8B1922CB6000DB879A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08159C6D1922CB5F00DB879A /* UIKit.framework */; };
 		08159C931922CB6000DB879A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08159C911922CB6000DB879A /* InfoPlist.strings */; };
 		08159C951922CB6000DB879A /* Drawing_A_HouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08159C941922CB6000DB879A /* Drawing_A_HouseTests.m */; };
+		08159CA01922CBB100DB879A /* MSHouseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08159C9F1922CBB100DB879A /* MSHouseView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		08159C901922CB6000DB879A /* Drawing A HouseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Drawing A HouseTests-Info.plist"; sourceTree = "<group>"; };
 		08159C921922CB6000DB879A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		08159C941922CB6000DB879A /* Drawing_A_HouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drawing_A_HouseTests.m; sourceTree = "<group>"; };
+		08159C9E1922CBB100DB879A /* MSHouseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSHouseView.h; sourceTree = "<group>"; };
+		08159C9F1922CBB100DB879A /* MSHouseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSHouseView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				08159C781922CB6000DB879A /* MSAppDelegate.h */,
 				08159C791922CB6000DB879A /* MSAppDelegate.m */,
 				08159C7B1922CB6000DB879A /* Main.storyboard */,
+				08159C9E1922CBB100DB879A /* MSHouseView.h */,
+				08159C9F1922CBB100DB879A /* MSHouseView.m */,
 				08159C7E1922CB6000DB879A /* MSViewController.h */,
 				08159C7F1922CB6000DB879A /* MSViewController.m */,
 				08159C811922CB6000DB879A /* Images.xcassets */,
@@ -253,6 +258,7 @@
 				08159C7A1922CB6000DB879A /* MSAppDelegate.m in Sources */,
 				08159C801922CB6000DB879A /* MSViewController.m in Sources */,
 				08159C761922CB5F00DB879A /* main.m in Sources */,
+				08159CA01922CBB100DB879A /* MSHouseView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
